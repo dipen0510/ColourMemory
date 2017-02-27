@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  NSMutableArray+Shuffle.h
 //  Colour Memory
 //
 //  Created by Dipen Sekhsaria on 26/02/17.
 //  Copyright © 2017 Dipen Sekhsaria. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface NSMutableArray (Shuffle)
 
+- (void) shuffle;
 
 @end
-

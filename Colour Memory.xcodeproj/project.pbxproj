@@ -9,12 +9,33 @@
 /* Begin PBXBuildFile section */
 		D456D3A31E631BE30017951D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3A21E631BE30017951D /* main.m */; };
 		D456D3A61E631BE30017951D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3A51E631BE30017951D /* AppDelegate.m */; };
-		D456D3A91E631BE30017951D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3A81E631BE30017951D /* ViewController.m */; };
+		D456D3A91E631BE30017951D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3A81E631BE30017951D /* GameViewController.m */; };
 		D456D3AC1E631BE30017951D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D456D3AA1E631BE30017951D /* Main.storyboard */; };
 		D456D3AE1E631BE30017951D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D456D3AD1E631BE30017951D /* Assets.xcassets */; };
 		D456D3B11E631BE30017951D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D456D3AF1E631BE30017951D /* LaunchScreen.storyboard */; };
 		D456D3BC1E631BE30017951D /* Colour_MemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3BB1E631BE30017951D /* Colour_MemoryTests.m */; };
 		D456D3C71E631BE30017951D /* Colour_MemoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3C61E631BE30017951D /* Colour_MemoryUITests.m */; };
+		D456D3E21E631C220017951D /* card_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3D51E631C220017951D /* card_bg.png */; };
+		D456D3E31E631C220017951D /* colour1.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3D61E631C220017951D /* colour1.png */; };
+		D456D3E41E631C220017951D /* colour2.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3D71E631C220017951D /* colour2.png */; };
+		D456D3E51E631C220017951D /* colour3.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3D81E631C220017951D /* colour3.png */; };
+		D456D3E61E631C220017951D /* colour4.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3D91E631C220017951D /* colour4.png */; };
+		D456D3E71E631C220017951D /* colour5.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DA1E631C220017951D /* colour5.png */; };
+		D456D3E81E631C220017951D /* colour6.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DB1E631C220017951D /* colour6.png */; };
+		D456D3E91E631C220017951D /* colour7.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DC1E631C220017951D /* colour7.png */; };
+		D456D3EA1E631C220017951D /* colour8.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DD1E631C220017951D /* colour8.png */; };
+		D456D3EB1E631C220017951D /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DE1E631C220017951D /* icon_57x57.png */; };
+		D456D3EC1E631C220017951D /* iphone_padding_reference.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DF1E631C220017951D /* iphone_padding_reference.jpg */; };
+		D456D3ED1E631C220017951D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3E01E631C220017951D /* logo.png */; };
+		D456D3F31E6337CA0017951D /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3F11E6337CA0017951D /* CardCollectionViewCell.m */; };
+		D456D3F41E6337CA0017951D /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D456D3F21E6337CA0017951D /* CardCollectionViewCell.xib */; };
+		D456D3F91E633FBE0017951D /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3F81E633FBE0017951D /* NSMutableArray+Shuffle.m */; };
+		D456D3FC1E634BA40017951D /* SelectionStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3FB1E634BA40017951D /* SelectionStatusViewController.m */; };
+		D4A841181E643D8200B52CB7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A841171E643D8200B52CB7 /* HomeViewController.m */; };
+		D4A8412B1E64413200B52CB7 /* SharedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A841251E64413200B52CB7 /* SharedClass.m */; };
+		D4A8412F1E6445E200B52CB7 /* EnterScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A8412E1E6445E200B52CB7 /* EnterScoreViewController.m */; };
+		D4A841321E64540800B52CB7 /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A841311E64540800B52CB7 /* HighScoreViewController.m */; };
+		D4A841381E6457D100B52CB7 /* HighScoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A841371E6457D100B52CB7 /* HighScoreTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +60,8 @@
 		D456D3A21E631BE30017951D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D456D3A41E631BE30017951D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D456D3A51E631BE30017951D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D456D3A71E631BE30017951D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D456D3A81E631BE30017951D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D456D3A71E631BE30017951D /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D456D3A81E631BE30017951D /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		D456D3AB1E631BE30017951D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D456D3AD1E631BE30017951D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D456D3B01E631BE30017951D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,36 @@
 		D456D3C21E631BE30017951D /* Colour MemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colour MemoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D456D3C61E631BE30017951D /* Colour_MemoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Colour_MemoryUITests.m; sourceTree = "<group>"; };
 		D456D3C81E631BE30017951D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D456D3D51E631C220017951D /* card_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_bg.png; sourceTree = "<group>"; };
+		D456D3D61E631C220017951D /* colour1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour1.png; sourceTree = "<group>"; };
+		D456D3D71E631C220017951D /* colour2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour2.png; sourceTree = "<group>"; };
+		D456D3D81E631C220017951D /* colour3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour3.png; sourceTree = "<group>"; };
+		D456D3D91E631C220017951D /* colour4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour4.png; sourceTree = "<group>"; };
+		D456D3DA1E631C220017951D /* colour5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour5.png; sourceTree = "<group>"; };
+		D456D3DB1E631C220017951D /* colour6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour6.png; sourceTree = "<group>"; };
+		D456D3DC1E631C220017951D /* colour7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour7.png; sourceTree = "<group>"; };
+		D456D3DD1E631C220017951D /* colour8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour8.png; sourceTree = "<group>"; };
+		D456D3DE1E631C220017951D /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57x57.png; sourceTree = "<group>"; };
+		D456D3DF1E631C220017951D /* iphone_padding_reference.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_padding_reference.jpg; sourceTree = "<group>"; };
+		D456D3E01E631C220017951D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D456D3F01E6337CA0017951D /* CardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardCollectionViewCell.h; path = "Custom Controls/CardCollectionViewCell.h"; sourceTree = "<group>"; };
+		D456D3F11E6337CA0017951D /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardCollectionViewCell.m; path = "Custom Controls/CardCollectionViewCell.m"; sourceTree = "<group>"; };
+		D456D3F21E6337CA0017951D /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardCollectionViewCell.xib; path = "Custom Controls/CardCollectionViewCell.xib"; sourceTree = "<group>"; };
+		D456D3F71E633FBE0017951D /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Shuffle.h"; path = "Category/NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		D456D3F81E633FBE0017951D /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Shuffle.m"; path = "Category/NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		D456D3FA1E634BA40017951D /* SelectionStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionStatusViewController.h; sourceTree = "<group>"; };
+		D456D3FB1E634BA40017951D /* SelectionStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionStatusViewController.m; sourceTree = "<group>"; };
+		D4A841161E643D8200B52CB7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D4A841171E643D8200B52CB7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D4A841241E64413200B52CB7 /* SharedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedClass.h; sourceTree = "<group>"; };
+		D4A841251E64413200B52CB7 /* SharedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedClass.m; sourceTree = "<group>"; };
+		D4A8412C1E64434200B52CB7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D4A8412D1E6445E200B52CB7 /* EnterScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterScoreViewController.h; sourceTree = "<group>"; };
+		D4A8412E1E6445E200B52CB7 /* EnterScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterScoreViewController.m; sourceTree = "<group>"; };
+		D4A841301E64540800B52CB7 /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		D4A841311E64540800B52CB7 /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		D4A841361E6457D100B52CB7 /* HighScoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighScoreTableViewCell.h; path = "Custom Controls/HighScoreTableViewCell.h"; sourceTree = "<group>"; };
+		D4A841371E6457D100B52CB7 /* HighScoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HighScoreTableViewCell.m; path = "Custom Controls/HighScoreTableViewCell.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +152,27 @@
 		D456D3A01E631BE30017951D /* Colour Memory */ = {
 			isa = PBXGroup;
 			children = (
+				D4A841191E64413200B52CB7 /* Helpers */,
+				D456D3F51E633F700017951D /* Category */,
+				D456D3EF1E63379B0017951D /* Custom Controls */,
+				D456D3D41E631C220017951D /* Resources */,
 				D456D3A41E631BE30017951D /* AppDelegate.h */,
 				D456D3A51E631BE30017951D /* AppDelegate.m */,
-				D456D3A71E631BE30017951D /* ViewController.h */,
-				D456D3A81E631BE30017951D /* ViewController.m */,
+				D456D3A71E631BE30017951D /* GameViewController.h */,
+				D456D3A81E631BE30017951D /* GameViewController.m */,
 				D456D3AA1E631BE30017951D /* Main.storyboard */,
 				D456D3AD1E631BE30017951D /* Assets.xcassets */,
 				D456D3AF1E631BE30017951D /* LaunchScreen.storyboard */,
 				D456D3B21E631BE30017951D /* Info.plist */,
 				D456D3A11E631BE30017951D /* Supporting Files */,
+				D456D3FA1E634BA40017951D /* SelectionStatusViewController.h */,
+				D456D3FB1E634BA40017951D /* SelectionStatusViewController.m */,
+				D4A841161E643D8200B52CB7 /* HomeViewController.h */,
+				D4A841171E643D8200B52CB7 /* HomeViewController.m */,
+				D4A8412D1E6445E200B52CB7 /* EnterScoreViewController.h */,
+				D4A8412E1E6445E200B52CB7 /* EnterScoreViewController.m */,
+				D4A841301E64540800B52CB7 /* HighScoreViewController.h */,
+				D4A841311E64540800B52CB7 /* HighScoreViewController.m */,
 			);
 			path = "Colour Memory";
 			sourceTree = "<group>";
@@ -118,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				D456D3A21E631BE30017951D /* main.m */,
+				D4A8412C1E64434200B52CB7 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +202,64 @@
 				D456D3C81E631BE30017951D /* Info.plist */,
 			);
 			path = "Colour MemoryUITests";
+			sourceTree = "<group>";
+		};
+		D456D3D41E631C220017951D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D456D3D51E631C220017951D /* card_bg.png */,
+				D456D3D61E631C220017951D /* colour1.png */,
+				D456D3D71E631C220017951D /* colour2.png */,
+				D456D3D81E631C220017951D /* colour3.png */,
+				D456D3D91E631C220017951D /* colour4.png */,
+				D456D3DA1E631C220017951D /* colour5.png */,
+				D456D3DB1E631C220017951D /* colour6.png */,
+				D456D3DC1E631C220017951D /* colour7.png */,
+				D456D3DD1E631C220017951D /* colour8.png */,
+				D456D3DE1E631C220017951D /* icon_57x57.png */,
+				D456D3DF1E631C220017951D /* iphone_padding_reference.jpg */,
+				D456D3E01E631C220017951D /* logo.png */,
+			);
+			name = Resources;
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D456D3EF1E63379B0017951D /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				D456D3F01E6337CA0017951D /* CardCollectionViewCell.h */,
+				D456D3F11E6337CA0017951D /* CardCollectionViewCell.m */,
+				D456D3F21E6337CA0017951D /* CardCollectionViewCell.xib */,
+				D4A841361E6457D100B52CB7 /* HighScoreTableViewCell.h */,
+				D4A841371E6457D100B52CB7 /* HighScoreTableViewCell.m */,
+			);
+			name = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		D456D3F51E633F700017951D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D456D3F61E633F790017951D /* NSMutableArray */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		D456D3F61E633F790017951D /* NSMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+				D456D3F71E633FBE0017951D /* NSMutableArray+Shuffle.h */,
+				D456D3F81E633FBE0017951D /* NSMutableArray+Shuffle.m */,
+			);
+			name = NSMutableArray;
+			sourceTree = "<group>";
+		};
+		D4A841191E64413200B52CB7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D4A841241E64413200B52CB7 /* SharedClass.h */,
+				D4A841251E64413200B52CB7 /* SharedClass.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +371,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D456D3E41E631C220017951D /* colour2.png in Resources */,
+				D456D3E21E631C220017951D /* card_bg.png in Resources */,
+				D456D3EC1E631C220017951D /* iphone_padding_reference.jpg in Resources */,
+				D456D3EB1E631C220017951D /* icon_57x57.png in Resources */,
 				D456D3B11E631BE30017951D /* LaunchScreen.storyboard in Resources */,
+				D456D3E71E631C220017951D /* colour5.png in Resources */,
+				D456D3E81E631C220017951D /* colour6.png in Resources */,
 				D456D3AE1E631BE30017951D /* Assets.xcassets in Resources */,
+				D456D3EA1E631C220017951D /* colour8.png in Resources */,
 				D456D3AC1E631BE30017951D /* Main.storyboard in Resources */,
+				D456D3E31E631C220017951D /* colour1.png in Resources */,
+				D456D3ED1E631C220017951D /* logo.png in Resources */,
+				D456D3F41E6337CA0017951D /* CardCollectionViewCell.xib in Resources */,
+				D456D3E61E631C220017951D /* colour4.png in Resources */,
+				D456D3E51E631C220017951D /* colour3.png in Resources */,
+				D456D3E91E631C220017951D /* colour7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +411,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D456D3A91E631BE30017951D /* ViewController.m in Sources */,
+				D456D3F31E6337CA0017951D /* CardCollectionViewCell.m in Sources */,
+				D4A841321E64540800B52CB7 /* HighScoreViewController.m in Sources */,
+				D456D3FC1E634BA40017951D /* SelectionStatusViewController.m in Sources */,
+				D4A8412F1E6445E200B52CB7 /* EnterScoreViewController.m in Sources */,
+				D456D3F91E633FBE0017951D /* NSMutableArray+Shuffle.m in Sources */,
+				D456D3A91E631BE30017951D /* GameViewController.m in Sources */,
 				D456D3A61E631BE30017951D /* AppDelegate.m in Sources */,
+				D4A841181E643D8200B52CB7 /* HomeViewController.m in Sources */,
 				D456D3A31E631BE30017951D /* main.m in Sources */,
+				D4A841381E6457D100B52CB7 /* HighScoreTableViewCell.m in Sources */,
+				D4A8412B1E64413200B52CB7 /* SharedClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,8 +570,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = CZA6DXR72T;
+				GCC_PREFIX_HEADER = "Colour Memory/PrefixHeader.pch";
 				INFOPLIST_FILE = "Colour Memory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stardeep.Colour-Memory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,8 +585,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = CZA6DXR72T;
+				GCC_PREFIX_HEADER = "Colour Memory/PrefixHeader.pch";
 				INFOPLIST_FILE = "Colour Memory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stardeep.Colour-Memory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +665,7 @@
 				D456D3CD1E631BE30017951D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D456D3CE1E631BE30017951D /* Build configuration list for PBXNativeTarget "Colour MemoryTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +674,7 @@
 				D456D3D01E631BE30017951D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D456D3D11E631BE30017951D /* Build configuration list for PBXNativeTarget "Colour MemoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +683,7 @@
 				D456D3D31E631BE30017951D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
