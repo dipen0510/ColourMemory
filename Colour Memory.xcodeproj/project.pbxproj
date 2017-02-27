@@ -24,8 +24,6 @@
 		D456D3E81E631C220017951D /* colour6.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DB1E631C220017951D /* colour6.png */; };
 		D456D3E91E631C220017951D /* colour7.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DC1E631C220017951D /* colour7.png */; };
 		D456D3EA1E631C220017951D /* colour8.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DD1E631C220017951D /* colour8.png */; };
-		D456D3EB1E631C220017951D /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DE1E631C220017951D /* icon_57x57.png */; };
-		D456D3EC1E631C220017951D /* iphone_padding_reference.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D456D3DF1E631C220017951D /* iphone_padding_reference.jpg */; };
 		D456D3ED1E631C220017951D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D456D3E01E631C220017951D /* logo.png */; };
 		D456D3F31E6337CA0017951D /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D456D3F11E6337CA0017951D /* CardCollectionViewCell.m */; };
 		D456D3F41E6337CA0017951D /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D456D3F21E6337CA0017951D /* CardCollectionViewCell.xib */; };
@@ -81,8 +79,6 @@
 		D456D3DB1E631C220017951D /* colour6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour6.png; sourceTree = "<group>"; };
 		D456D3DC1E631C220017951D /* colour7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour7.png; sourceTree = "<group>"; };
 		D456D3DD1E631C220017951D /* colour8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colour8.png; sourceTree = "<group>"; };
-		D456D3DE1E631C220017951D /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57x57.png; sourceTree = "<group>"; };
-		D456D3DF1E631C220017951D /* iphone_padding_reference.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_padding_reference.jpg; sourceTree = "<group>"; };
 		D456D3E01E631C220017951D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		D456D3F01E6337CA0017951D /* CardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardCollectionViewCell.h; path = "Custom Controls/CardCollectionViewCell.h"; sourceTree = "<group>"; };
 		D456D3F11E6337CA0017951D /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardCollectionViewCell.m; path = "Custom Controls/CardCollectionViewCell.m"; sourceTree = "<group>"; };
@@ -216,8 +212,6 @@
 				D456D3DB1E631C220017951D /* colour6.png */,
 				D456D3DC1E631C220017951D /* colour7.png */,
 				D456D3DD1E631C220017951D /* colour8.png */,
-				D456D3DE1E631C220017951D /* icon_57x57.png */,
-				D456D3DF1E631C220017951D /* iphone_padding_reference.jpg */,
 				D456D3E01E631C220017951D /* logo.png */,
 			);
 			name = Resources;
@@ -373,8 +367,6 @@
 			files = (
 				D456D3E41E631C220017951D /* colour2.png in Resources */,
 				D456D3E21E631C220017951D /* card_bg.png in Resources */,
-				D456D3EC1E631C220017951D /* iphone_padding_reference.jpg in Resources */,
-				D456D3EB1E631C220017951D /* icon_57x57.png in Resources */,
 				D456D3B11E631BE30017951D /* LaunchScreen.storyboard in Resources */,
 				D456D3E71E631C220017951D /* colour5.png in Resources */,
 				D456D3E81E631C220017951D /* colour6.png in Resources */,
