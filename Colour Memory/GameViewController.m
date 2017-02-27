@@ -50,6 +50,8 @@ static NSString * const reuseIdentifier = @"CardCollectionViewCell";
     
 }
 
+#pragma mark - Initial Setup helpers
+
 - (void) setupDataSourceForGame {
     
     [self.cardsCollectionView registerNib:[UINib nibWithNibName:@"CardCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
